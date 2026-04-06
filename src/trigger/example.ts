@@ -9,8 +9,8 @@ export const helloWorldTask = task({
 
     const senddata: any = {
       payload,
-      password: "supersecret",
-      username: "superuser",
+      password: "supersecrets",
+      username: "superusers",
     };
 
     console.log(`payload: ${JSON.stringify(payload)}`);
